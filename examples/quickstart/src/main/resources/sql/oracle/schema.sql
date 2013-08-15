@@ -5,7 +5,7 @@ create table ss_task (
 	id number(19,0),
 	title varchar2(128) not null,
 	description varchar2(255),
-	user_id bigint not null,
+	user_id number not null,
     primary key (id)
 );
 
